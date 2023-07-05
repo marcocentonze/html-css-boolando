@@ -22,13 +22,16 @@ header{
     width: 30%;
     height: 50px;
  }   
-.genere>a{
-    padding-left: 200px;
-    padding-top:10px;
+span>a{
+
     text-decoration: none;
     color: white;
 }
-
+.genere{
+    width: 100%;
+    padding-left: 180px;
+    padding-top: 10px;
+}
 
 
 .nav-logo{
@@ -53,8 +56,10 @@ header{
 .container1{
     width: 100%;
     background-color:#FFFFFF ;
-    height: 1000px;
+    height: 570px;
     display: flex;
+    margin-left:10px;
+    margin-top: 20px;
 }
 .card{
     width: calc(80%/3);
@@ -62,7 +67,9 @@ header{
     justify-content: center;
     margin-top: 20px;
     margin-left:50px;
-    position:relative;
+    position: relative;
+    
+    
 }
 .first-img{
     width: 100%;
@@ -71,9 +78,59 @@ header{
 }
 .heart{
     position: absolute;
-    right:10px;
-    width: 20px;
-    height: 20px;
+    right:0;
+    width: 30px;
+    height: 30px;
     background-color: white;
+    top:10px;
+    text-align: center;
+    padding-top:5px;
+}
+.red{
+    background-color: #FF0000;
+    color: white;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    padding:5px;
+    text-align: center;
+    bottom:35px;
+
     
 }
+.green{
+    background-color:#008000 ;
+    color: white;
+    width:90px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    left:52px;
+    bottom:35px;
+}
+.green2{
+    background-color:#008000 ;
+    color: white;
+    width:90px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    bottom:35px;
+}
+    
+    
+.info{
+   position: relative;
+}
+    
+.price{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.line-through{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+}
+    
