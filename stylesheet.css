@@ -9,6 +9,7 @@ bg-card:#E9E7E6;
 bg-primary:#FFFFFF;
 bg-sostenibilita:#008000;
 bg-sale:#FF0000;
+bg-footer:#1A1A1A;
 */
 
 /* header */
@@ -50,10 +51,10 @@ span>a{
     left:860px;
     top:10px;
 }
-/* fine hedaer */
+/* fine header */
 
 /* main */
-.container1{
+.container{
     width: 100%;
     background-color:#FFFFFF ;
     height: 570px;
@@ -133,4 +134,32 @@ span>a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: line-through;
 }
+/* fine main */
+
+/* footer */
+.finale{
+    width: 100%;
+    background-color: #1A1A1A;
+}
+
+.foot{
+    margin:auto;
+    width: 80%;
+    padding: 16px 0;
+    line-height: 32px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
     
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.info{
+    color:white;
+    font-size: small;
+}
+/* fine footer */
