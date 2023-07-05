@@ -163,3 +163,8 @@ span>a{
     font-size: small;
 }
 /* fine footer */
+
+/* hover */
+.heart:hover{
+color: #FF0000;
+}
