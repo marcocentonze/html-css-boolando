@@ -17,20 +17,20 @@ header{
     display:flex;
 
 }
-.nav-section{
+
+ .nav-section{
     width: 30%;
     height: 50px;
+ }   
+.genere>a{
     padding-left: 200px;
     padding-top:10px;
-
-
-}
-.nav-section>a{
     text-decoration: none;
     color: white;
-    
-
 }
+
+
+
 .nav-logo{
     width:40%;
     position:relative;
@@ -46,4 +46,34 @@ header{
     position: absolute;
     left:860px;
     top:10px;
+}
+/* fine hedaer */
+
+/* main */
+.container1{
+    width: 100%;
+    background-color:#FFFFFF ;
+    height: 1000px;
+    display: flex;
+}
+.card{
+    width: calc(80%/3);
+    height:400px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left:50px;
+    position:relative;
+}
+.first-img{
+    width: 100%;
+    background-color: #F1F1F1;
+   
+}
+.heart{
+    position: absolute;
+    right:10px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    
 }
