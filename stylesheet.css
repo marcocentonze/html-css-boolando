@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* colori 
+color-header:#FF6900;
+bg-card:#E9E7E6;
+bg-primary:#FFFFFF;
+bg-sostenibilita:#008000;
+bg-sale:#FF0000;
+*/
+
+/* header */
+header{
+    background-color:#FF6900 ;
+    display:flex;
+
+}
+.nav-section{
+    width: 30%;
+    height: 50px;
+    padding-left: 200px;
+    padding-top:10px;
+
+
+}
+.nav-section>a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.nav-logo{
+    width:40%;
+    position:relative;
+}
+.nav-logo>img{
+    position: absolute;
+    right: 256px;
+    top:10px;
+    
+}
+.nav-icon{
+    width: 30%;
+    position: absolute;
+    left:860px;
+    top:10px;
+}
