@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.pad-10{
+    padding:0 10px;
+}
 /* colori 
 color-header:#FF6900;
 bg-card:#E9E7E6;
@@ -16,8 +19,8 @@ bg-footer:#1A1A1A;
 header{
     background-color:#FF6900 ;
     display:flex;
-
 }
+
 
  .nav-section{
     width: 30%;
