@@ -105,7 +105,9 @@ span>a{
     color: white;
     width:90px;
     height: 20px;
-    padding: 5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 12px;
     position: absolute;
     left:52px;
     bottom:35px;
@@ -115,7 +117,9 @@ span>a{
     color: white;
     width:90px;
     height: 20px;
-    padding: 5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 12px;
     position: absolute;
     bottom:35px;
 }
