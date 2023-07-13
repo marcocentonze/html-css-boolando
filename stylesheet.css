@@ -67,8 +67,8 @@ span>a{
     max-width: 1170px;
 }
 .card{
-    width: calc(80%/3);
-    height:400px;
+    width: 310px;
+    height:448px;
     justify-content: center;
     margin-top: 20px;
     margin-left:50px;
