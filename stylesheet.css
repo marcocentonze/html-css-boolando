@@ -72,7 +72,7 @@ span>a{
     
     
 }
-.first-img{
+.img-one{
     width: 100%;
     background-color: #F1F1F1;
    
@@ -167,4 +167,17 @@ span>a{
 /* hover */
 .heart:hover{
 color: #FF0000;
+}
+
+.img-two{
+    display: none;
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.card:hover .img-one{
+    display: none;
+}
+
+.card:hover .img-two{
+    display: inline;
 }
